@@ -47,7 +47,7 @@ if uploaded_file:
 
             st.markdown("### 🤖 Gemini Personality Profile")
             st.markdown(
-                f"<div style='background-color:#f4f4f4;padding:20px;border-radius:10px;border:1px solid #e0e0e0;'>{analysis}</div>",
+                f"<div style='background-color:#f9f9f9;padding:15px;border-radius:10px;color:blue;'>{analysis}</div>",
                 unsafe_allow_html=True
             )
 else:
